@@ -10,6 +10,10 @@
 
 - wine：在/usr/bin目录下必须包含wine。
 
+## 自动启动
+
+当binfmt_pe模块正常编译安装后,可通过将binfmt_pe写入/etc/modules实现自动启动。
+
 # 编译安装
 
 注意：需要先安装以下软件包以支持编译使用：
