@@ -67,4 +67,4 @@ static void __exit exit_pe_binfmt(void)
 
 core_initcall(init_pe_binfmt);
 module_exit(exit_pe_binfmt);
-MODULE_LICENSE("MIT");
+MODULE_LICENSE("GPL");
