@@ -8,7 +8,7 @@
 
 ## 使用条件
 
-- wine：在/usr/bin目录下必须包含wine。
+- [wine](https://www.winehq.org/)：在/usr/bin目录下必须包含wine。
 
 ## 自动启动
 
