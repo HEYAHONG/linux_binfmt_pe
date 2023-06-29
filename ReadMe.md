@@ -6,6 +6,19 @@
 
 若未特殊说明，默认测试的操作系统为ubuntu22.04.
 
+## 其他实现方式
+
+若系统中安装了binfmt_misc内核模块及update-binfmts,可使用以下命令直接开启：
+
+```bash
+#安装
+sudo update-binfmts --install win32_pe /usr/bin/wine --magic '\x4d\x5a'
+#启用
+sudo update-binfmts --enable win32_pe
+```
+
+更多操作可使用man update-binfmts查询帮助。
+
 ## 使用条件
 
 - [wine](https://www.winehq.org/)：在/usr/bin目录下必须包含wine。
